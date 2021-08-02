@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'parent-child';
+
+
+  greet(name:string){
+    alert("Hi "+name);
+  }
 }
